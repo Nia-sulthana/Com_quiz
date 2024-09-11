@@ -1,0 +1,97 @@
+print("WELCOME TO 2024 COMPUTER QUIZ")
+
+playing =input("Do You Want To Play: ")
+
+print("Let's Have Fun")
+if playing.lower() != "yes":
+    quit()
+
+print("okay! let's play")
+score = 0
+
+ans=input("what does CPU stands for?")
+if (ans.lower()) == "central processing unit":
+    print('Correct!')
+    score += 1
+else:
+    print('In Correct!')
+
+ans=input("what does GPU stands for?")
+if (ans.lower()) == "graphics processing unit":
+    print('Correct!')
+    score += 1
+else:
+    print('In Correct!')
+
+ans=input("Name two operating systems?")
+if (ans.lower()) == "windows,ubuntu":
+    print('Correct!')
+    score += 1
+else:
+    print('In Correct!')
+
+ans=input("what does RAM stands for?")
+if (ans.lower()) == "random access memory":
+    print('Correct!')
+    score += 1
+else:
+    print('Incorrect!')
+
+ans=input("which device is used to input data into computer?")
+if (ans.lower()) == "key board":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+   
+ans=input("what is the full form of USB?")
+if (ans.lower()) == "universal serial bus":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+
+ans=input("which is known as computer memory in computer?")
+if (ans.lower()) == "virtual memory":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+
+ans=input("Type of network?")
+if (ans.lower()) == "lan":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+
+ans=input("what is full form of PDF?")
+if (ans.lower()) == "portable document format":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+
+ans=input("Name a computer virus?")
+if (ans.lower()) == "trojan":
+    print('Correct!')
+    score += 1
+else:
+    print('InCorrect!')
+
+text=("you are awesome")
+print(text.lower())
+
+print("you got " + str(score) + "questions correct!")
+print("you got " + str((score/ 10) * 100) + "questions correct!")
+
+if score > 100:
+    print('Good luck for nexttime')
+else:
+
+    if score < 50:
+        print('Good Try')
+    else:
+        score < 30
+        print('Try again')
+
